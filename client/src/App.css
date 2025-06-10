@@ -1,0 +1,53 @@
+
+.dark{
+    background: linear-gradient(#0f0c29, #302b63, #24243e);
+    color: white;
+}
+.light{
+    background: #f1f1f1;
+    color: black;
+}
+
+/* Make timeline cards transparent */
+.vertical-timeline-element-content {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Optional: Remove the arrow background */
+.vertical-timeline-element-content-arrow {
+  border-right: 7px solid transparent !important;
+}
+
+.vertical-timeline-element-icon{
+    box-shadow: none !important;
+}
+
+/*
+linear-gradient(#0f0c29, #302b63, #24243e);
+#1f1c2c, #928dab
+
+#4b5d8a, #3f2b96
+*/
+
+/*Sidebar*/
+.hide {
+  display: none;
+}
+.link{
+    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+
+}
+.link:hover {
+  border-right: 4px solid white;
+  border-radius: 16px 7px 7px 16px;
+
+  background: #8999ae;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+.active {
+  border-right: 4px solid white;
+  background: #97979f;
+  border-radius: 16px 7px 7px 16px;
+  /* rgb(110, 121, 190); */
+}
