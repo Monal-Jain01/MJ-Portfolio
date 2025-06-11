@@ -26,7 +26,7 @@ function Slider({ images }) {
               <div className='flex justify-between items-center mb-4'>
                 <h3 className='font-bold m-4 text-xl'>{img.title}</h3>
                 <button 
-                onClick={() => window.open('')}
+                onClick={() => window.open(img.plink)}
                 className='bg-gradient-to-r from-blue-500 to-blue-700 text-white px-4 py-2 rounded-lg hover:opacity-80 transition duration-300'>
                   View
                 </button>

@@ -10,12 +10,14 @@ const images =  [
     title: "Cuisine Catalyst",
     description: "Introducing Cuisine Catalyst, an ultimate culinary companion built with the power of the MERN stack! Discover a world of flavors with our intuitive recipe generator website- simply input your available ingredient.  With a sleek React-based interface, seamless API calls via Express and Node.js, and a robust MongoDB database storing thousands of recipes, users can save their favorite dishes. It also features a user-friendly authentication system, allowing users to create accounts and securely log in.",
     image: cc_img,
+    plink: "https://github.com/Monal-Jain01/Cusine-catalyst",
   },
   {
     id: 2,
     title: "E-commerce website",
     description: "Dive into a vibrant  e-commerce experience with our React-based website. It also features redux to keep track of the cart. ",
     image: rtk_img,
+    plink: "",
     
   },
   {
@@ -23,6 +25,7 @@ const images =  [
     title: "Rock Paper Scissors",
     description: "In a pixelated arena glowing on your screen, three ancient champions—Rock, Paper, and Scissors—await your command. Coded in JavaScript, this digital duel pits your wits against a cunning computer opponent. With a click, you summon Rock’s unyielding might, Paper’s sly coverage, or Scissors’ sharp precision.",
     image: rps_img,
+    plink: "https://monal-jain01.github.io/Rock_paper_scissors/",
     
   },
   

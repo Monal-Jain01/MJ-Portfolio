@@ -1,5 +1,4 @@
 import React from 'react'
-import Timeline from './Timeline'
 import EduLine from './EduLine'
 
 export default function Education({ sectionId = "education" }) {
