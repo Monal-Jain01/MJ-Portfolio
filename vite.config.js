@@ -7,5 +7,8 @@ export default defineConfig({
   plugins: [react(),
      tailwindcss(),
   ],
-  base: "/MJ-Portfolio"
+  base: "/MJ-Portfolio",
+  build: {
+    chunkSizeWarningLimit: 1600
+  }
 })

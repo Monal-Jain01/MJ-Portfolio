@@ -49,7 +49,7 @@ export default function Header() {
         </ul>
       </nav>
     </div>
-    <div className='md:hidden fixed '>
+    <div className='md:hidden fixed z-1000  '>
       <Sidebar />
     </div>
     </>

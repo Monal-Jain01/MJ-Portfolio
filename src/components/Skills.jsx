@@ -68,7 +68,7 @@ export default function Skills({ sectionId = "skills" }) {
         Skills
         <p className='text-gray-400 text-xl m-2 font-normal'>My Tech skills</p>
       </div>
-      <div className={`flex sm:ml-40 `}>
+      <div className={`flex sm:ml-40 ml-2 `}>
       <div
         ref={containerRef}
         className=' flex flex-col gap-4'

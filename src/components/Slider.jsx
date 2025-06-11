@@ -9,7 +9,7 @@ import React from 'react';
 
 function Slider({ images }) {
   return (
-    <div style={{ maxWidth: 600, margin: "0 auto" }} className='border border-blue-500 rounded-lg p-4'>
+    <div style={{ maxWidth: 600, margin: "0 auto" }} className='border-y border-blue-500 rounded-lg p-4 shadow-lg'>
       <Swiper
         modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={30}

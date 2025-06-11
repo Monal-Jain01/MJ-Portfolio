@@ -43,7 +43,9 @@ export default function Home({ sectionId = "home" }) {
             }}
           />
         </div>
-        <button className=' bg-blue-400 rounded-xl m-4 p-3 self-center w-40 text-base md:text-2xl'>Resume <SimCardDownloadIcon/>  </button>
+        <button
+        onClick={() => window.open("https://drive.google.com/file/d/1GfZ0wlhfmqRpRavRfkIpEnZ9an1hlbA0/view?usp=drivesdk")}
+         className=' bg-blue-400 cursor-pointer rounded-xl m-4 p-3 self-center w-40 text-base md:text-2xl'>Resume <SimCardDownloadIcon/>  </button>
       </div>
       <div className=' w-40 h-40 md:w-[30%] md:h-auto rounded-full overflow-hidden bg-transparent lg:mr-60 mb-8 lg:mb-0 flex-shrink-0 flex items-center justify-center'>
         <img src={myPhoto} alt="" className='w-full h-full object-cover' />
